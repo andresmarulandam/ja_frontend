@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Centra el formulario */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Estilos para el formulario */
+form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los campos de entrada */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Estilos para las etiquetas */
+.form-label {
+  font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para el botón de registrarse */
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
